@@ -25,30 +25,51 @@ Gérer tous les cas.-->
             <?php
 // Déclaration de deux variables age de type int et genre de type string
             $age = 13;
-            $genre = "femme";
+            $genre = 'femme';
 // Introduction des conditions
-            if ($age <= 18 && $genre == "homme") {
+            if ($age <= 18 && $genre == 'homme') {
 // Alors ...
-                echo "Vous êtes un homme et vous êtes mineur";
+                echo 'Vous êtes un homme et vous êtes mineur';
             }
 // Par contre si 
-            elseif ($age <= 18 && $genre == "femme") {
+            elseif ($age <= 18 && $genre == 'femme') {
 // Alors ...  
-                echo "Vous êtes une femme et vous êtes mineur";
+                echo 'Vous êtes une femme et vous êtes mineure';
             }
 // Par contre si
-            elseif ($age >= 18 && $genre == "homme") {
+            elseif ($age >= 18 && $genre == 'homme') {
 //Alors ...
-                echo "Vous êtes un homme et vous êtes majeur";
+                echo 'Vous êtes un homme et vous êtes majeur';
             }
 // Par contre si
-            elseif ($age >= 18 && $genre == "femme") {
+            elseif ($age >= 18 && $genre == 'femme') {
 //Alors ...
-                echo "Vous êtes un femme et vous êtes majeur";
+                echo 'Vous êtes un femme et vous êtes majeure';
             } else {
-                echo "C'est problématique !!";
+                echo 'C\'est problématique !!';
             }
             ?> 
+<!-- Fait par Jonathan :
+          // Déclaration de mes variables
+          $gender = 'homme';
+          $age = 26;
+          // Déclaration de mes conditions sur le genre
+          if ($gender == 'femme') {
+              echo 'Vous êtes une femme et ';
+          } else {
+              echo 'Vous êtes un homme et ';
+          }
+          // Déclaration de mes condistions sur l'âge
+          if (is_nan($age) || $age < 0) {
+              echo 'Votre âge est incorrect ou negatif, merci de corriger.';
+          } else {
+              if ($age < 18) {
+                  echo 'vous êtes mineur.';
+              } else {
+                  echo 'vous êtes majeur.';
+              }
+          }
+-->            
         </p>
         <!-- Mise en place des boutons de re-direction-->
         <div class="buttons">

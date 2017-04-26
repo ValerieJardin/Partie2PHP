@@ -18,12 +18,13 @@
 // Introduction de la condition
             if ($IsEasy == true) {
 // Affichage de la variable si c'est vrai
-                echo "C'est facile !";
-            } elseif ($IsEasy == false) {
-// Affichage de la variable si c'est faux   
-                echo "C'est difficile !!!";
+                echo 'C\'est facile !';            
             }
-            ?> 
+            else {
+                echo 'C\'est difficile !!!';
+            }
+            ?>
+ <!--Bonus : echo ($IsEasy == true) ? 'c\'est facile !' : 'c\'est difficile !!!'; -->           
         </p>
         <!-- Mise en place des boutons de re-direction-->
         <div class="buttons">

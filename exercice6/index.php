@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.o"/> 
         <!--Lien pour cssiser la vue-->
         <link href="../style.css" rel="stylesheet" type="text/css"/>
-        <!--Traduire ce code avec des if et des else :
+        <!--Traduire ce code avec des if et des else : traduire une ternaire
             <php echo ($monAge >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';?> -->
         <title>Exercice 6 de la partie 2 en PHP</title>
     </head>

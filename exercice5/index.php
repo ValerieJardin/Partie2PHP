@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.o"/> 
         <!--Lien pour cssiser la vue-->
         <link href="../style.css" rel="stylesheet" type="text/css"/>
-        <!--Traduire ce code avec des if et des else :
+        <!--Traduire ce code avec des if et des else : traduire une ternaire
             <php echo ($maVariable != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!'; ?> -->
         <title>Exercice 5 de la partie 2 en PHP</title>
     </head>
@@ -14,7 +14,7 @@
             <?php
 // Déclaration de la variable genre
             $genre = 'Femme';
-// Mise en place de la structure if...else avec utilisation du symbole Est différent de            
+// Mise en place de la structure if...else avec utilisation du symbole Est différent de              
             if ($genre != 'Homme'){
                 echo 'C\'est une développeuse !!!';
             }
